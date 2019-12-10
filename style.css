@@ -73,7 +73,7 @@ body{
 
 .choice:hover {
     cursor: pointer;
-    background: darkgreen;
+    background: orange;
 }
 
 #action-message {
@@ -82,4 +82,19 @@ body{
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px;
+}
+
+.green-glow {
+    border: 4px solid green;
+    box-shadow: 0 0 10px limegreen;
+}
+
+.red-glow{
+    border: 4px red;
+    box-shadow: 0 0 10px orangered;
+}
+
+.gray-glow {
+    border: 4px solid gray;
+    box-shadow: 0 0 10px darkgray;
 }
