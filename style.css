@@ -9,3 +9,20 @@ canvas{
     display: block;
     margin: 0 auto;
 }
+
+button {
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px slategray;
+  }
+  
+button:hover {background-color: #3e8e41}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px yellow;
+    transform: translateY(4px);
+  }
