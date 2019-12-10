@@ -22,12 +22,6 @@ body{
     text-align: center;
 }
 
-canvas{
-    border: 1px solid #000;
-    display: block;
-    margin: 0 auto;
-}
-
 .score-board{
     margin: 20px auto;
     border: 3px solid white;
